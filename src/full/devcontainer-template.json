@@ -1,0 +1,23 @@
+{
+  "id": "latex-ja-full",
+  "version": "0.1.0",
+  "name": "Latex-ja-full",
+  "description": "latex japanese environment with graphviz, plantuml, drawio, and python",
+  "publisher": "Keitaro Takeuchi",
+  "licenseURL": "",
+  "options": {
+    "imageVariant": {
+      "type": "string",
+      "description": "Debian OS version (use bookworm, or bullseye on local arm64/Apple Silicon):",
+      "proposals": [
+        "bookworm",
+        "buster",
+        "bullseye"
+      ],
+      "default": "bookworm"
+    }
+  },
+  "platforms": [
+    "Latex"
+  ]
+}
